@@ -1,0 +1,774 @@
+body {
+    background-image: url(../images/tablet\ uchun\ images/check-out-payment.svg);
+    background-repeat: no-repeat;
+}
+
+
+/* -------MODAL----------------------------------- */
+
+#Mymodal{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 150vh;
+    background: rgba(100, 44, 153, 0.8);
+    position: fixed;
+    display: none;
+}
+
+
+.modal{
+    width: 500px;
+    height: 600px;
+    background-image: url(../images/tablet\ uchun\ images/modal-tablet.svg);
+    /* position: fixed; */
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal .text{
+    width: 80%;
+    height: 37%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.text h1{
+    font-size: 59px;
+    line-height: 65px;
+    height: 120px;
+    border: inherit;
+}
+
+.text button{
+    width: 38%;
+    margin: 0 auto;
+    height: 35px;
+    background: #642C99;
+    border-radius: 8px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    /* text-align: center; */
+    color: #FBFAC9;
+    border: none;
+    cursor: pointer;
+}
+
+.modal img{
+    position: absolute;
+    bottom: 0;
+    left: 29%;
+    height: 200px;
+}
+
+
+
+
+h3, h4, h5,h6{
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: normal;
+    color: #642C99;
+}
+
+.blok-images .top-img{
+    position: absolute;
+    width: 155px;
+    height: 154px;
+    right: 110px;
+    top: 155px;
+}
+
+.blok-images .bottom-img {
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    right: 220px;
+    top: 310px;
+
+}
+/* ______________________________________ */
+
+.back {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 170px;
+    top: 635px;
+}
+
+.back a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #642C99;
+}
+
+.delivery h1 {
+    position: absolute;
+    width: 307px;
+    height: 51px;
+    left: 170px;
+    top: 755px;
+    font-size: 48px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.types{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 905px;
+    /* border: 1px solid red; */
+}
+
+.types .rows{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    border: inherit;
+}
+
+hr{
+    width: 75%;
+    margin: auto;
+}
+
+.types .rows label{
+    width: 6%;
+}
+
+.types .rows .post{
+    width: 60%;
+    border: inherit;
+}
+
+.types .rows label input {
+    width: 23px;
+    height: 23px;
+}
+
+.types .rows h2{
+    font-size: 35px;
+    width: 34%;
+    display: flex;
+    justify-content: flex-end;
+    border: inherit;
+}
+/* __________________________________________ */
+
+.heads{
+    position: absolute;
+    right: 170px;
+    top: 1408px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.account h1{
+    position: absolute;
+    width: 348px;
+    height: 51px;
+    left: 170px;
+    top: 1591px;
+    font-size: 48px;
+    line-height: 51px;
+}
+/* _______________________________________ */
+
+.form{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 1733px;
+
+}
+
+.form form{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.form form input{
+    width: 100%;
+    height: 50px;
+    background: none;
+    color: #642C99;
+    border: 2px solid #642C99;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.form form label{
+    width: 43%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: inherit;
+    margin-bottom: 60px;
+}
+
+.delivered h1{
+    position: absolute;
+    width: 405px;
+    height: 51px;
+    left: 170px;
+    top: 2128px;
+    font-size: 48px;
+    line-height: 51px;
+}
+
+.address{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2271px;
+}
+
+.paym h1{
+    position: absolute;
+    width: 405px;
+    height: 51px;
+    left: 170px;
+    top: 2650px;
+    font-size: 48px;
+    line-height: 51px;
+}
+
+.payment{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2770px;
+    
+}
+
+
+form input::placeholder{
+    color: #642C99;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.total{
+    width: 22%;
+    height: 120px;
+    position: absolute;
+    right: 170px;
+    top: 3350px;
+}
+/* _____________________________________ */
+
+.footer .top{
+    position: absolute;
+    left: 80px;
+    top: 4100px;
+}
+
+.footer .bottom{
+    position: absolute;
+    left: 0;
+    top: 4400px;
+    margin-bottom: 100px;
+}
+
+
+/*------- TABLET DEVICES---------------- */
+
+@media screen and (max-width:945px){
+    .blok-images .top-img{
+        position: absolute;
+        width: 120px;
+        height: 125px;
+        right: 90px;
+        top: 155px;
+    }
+    
+    .blok-images .bottom-img {
+        position: absolute;
+        width: 230px;
+        height: 245px;
+        right: 180px;
+        top: 310px;
+    
+    }
+
+    .types .rows, .form form, hr{
+        width: 85%;
+    }
+
+    .back, .delivery h1, .account h1, .paym h1, .delivered h1{
+        left: 120px;
+    }
+
+    .heads{
+        right: 120px;
+    }
+
+    .total{
+        width: 30%;
+        right: 120px;
+    }
+
+    .footer .top{
+        left: 50px;
+    }
+}
+
+/* -------MOBILE DEVICES----------------------- */
+
+@media screen and (max-width:729px) {
+    .blok-images .top-img{
+        position: absolute;
+        width: 90px;
+        height: 95px;
+        right: 80px;
+        top: 155px;
+    }
+    
+    .blok-images .bottom-img {
+        position: absolute;
+        width: 150px;
+        height: 160px;
+        right: 160px;
+        top: 310px;
+    }
+
+    .blok-1 h1{
+        width: 48%;
+        height: 120px;
+        font-size: 60px;
+    }
+
+    .blok-1 p{
+        width: 38%;
+        font-size: 17px;
+    }
+
+    .heads{
+        width: 240px;
+        top: 1420px;
+        right: 35px;
+    }
+
+    .heads h1{
+        font-size: 28px;
+    }
+
+    .heads p{
+        font-size: 18px;
+    }
+
+    .types .rows{
+        width: 92%;
+    }
+
+    .types .rows h2{
+        font-size: 23px;
+    }
+
+    .types .rows .post{
+        width: 80%;
+        padding-left: 10px;
+    }
+
+    .types .rows .post h1{
+        font-size: 22px;
+    }
+
+    .types .rows .post p{
+        font-size: 17px;
+    }
+
+    .types .rows h2{
+        width: 18%;
+    }
+
+    .types .rows label{
+        width: 4%;
+    }
+
+    .types .rows label input{
+        width: 17px;
+        height: 17px;
+    }
+
+    .back, .delivery h1, .account h1, .paym h1, .delivered h1{
+        left: 35px;
+    }
+
+    .types .rows, .form form, hr{
+        width: 93%;
+    }
+
+    .form form input{
+        height: 40px;
+    }
+
+    .form form label{
+        width: 47%;
+    }
+
+    .total{
+        width: 40%;
+        right: 35px;
+    }
+
+}
+
+
+@media screen and (max-width:767px) and (min-width:601px){
+    .footer .top {
+        top: 4000px;
+        left: 20px;
+    }
+
+    .footer .bottom {
+        top: 4350px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .modal{
+        width: 250px;
+        height: 400px;
+        /* background-image: url(../images/check-our/modalcha.png); */
+        /* position: fixed; */
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* border-start-end-radius: 20px; */
+        border-end-end-radius: 20px;
+    }
+
+    .modal .text{
+        top: 45%;
+        width: 80%;
+        height: 47%;
+        /* border: 1px solid red; */
+    }
+
+    .text h1{
+        font-size: 32px;
+        line-height: 32px;
+        height: 65px;
+        border: inherit;
+    }
+
+    .text button{
+        height: 30px;
+        width: 90%;
+    }
+
+    .modal img{
+        display: none;
+    }
+
+
+
+
+
+    
+    .footer .top {
+        top: 4000px;
+        left: 20px;
+        height: 320px;
+    }
+
+    .footer .top .one h1{
+        font-size: 27px;
+    }
+
+    .footer .top .two ul{
+        height: 80px;
+    }
+
+    .footer .top .two ul li a{
+        font-size: 17px;
+    }
+
+    .footer .top .three{
+        height: 125px;
+        
+    }
+
+    .three form{
+        height: 85px;
+    }
+
+    .three form input[type='email'], .three form input[type='submit']{
+        height: 32px;
+    }
+
+    .footer .bottom{
+        width: 70%;
+        height: 160px;
+        position: absolute;
+        margin-bottom:0;
+    }
+
+    .footer .bottom ul li a{
+        font-size: 17px;
+    }
+
+    .footer .bottom .under{
+        display: none;
+    }
+
+    .footer .bottom {
+        top: 4350px;
+        left: 20px;
+    }
+}
+
+/* ------MOBILE DEVICES OXIRI-------------------- */
+@media screen and (max-width: 490px) {
+    body{
+        background-image: url(../images/mobile\ uchun/check-out2.svg);
+        background-repeat: no-repeat;
+    }
+
+    .blok-1 {
+        padding-left: 20px;
+        top: 128px;
+        /* border: 1px solid red; */
+    }
+
+    .blok-1 h1{
+        width: 96%;
+        font-size: 60px;
+        line-height: 63px;
+        height: 65px;
+        border: inherit;
+    }
+
+    .blok-1 p{
+        width: 96%;
+        font-size: 17px;
+        line-height: 24px;
+        height: 46px;
+    }
+
+    .blok-images .top-img {
+        display: none;
+    }
+
+    .blok-images .bottom-img{
+        width: 200px;
+        height: 209px;
+        right: 35px;
+        top: 300px;
+    }
+
+    .back{
+        top: 520px;
+        left: 20px;
+    }
+
+    .delivery h1{
+        position: absolute;
+        width: 167px;
+        height: 27px;
+        left: 19px;
+        top: 576px;
+        font-size: 26px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .types{
+        top: 650px;
+
+    }
+
+    .types .rows{
+        width: 91%;
+        align-items: baseline;
+        margin-bottom: 47px;
+    }
+
+    .types .rows .post{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 70%;
+        /* height: 90px; */
+    }
+
+    .types .rows label{
+        width: 7%;
+    }
+
+    .types .rows .post h1{
+        font-size: 18px;
+    }
+
+    .types .rows .post p{
+        font-size: 16px;
+        line-height: 22px;
+        width: 151%;
+        margin-top: 19px;
+        margin-left: -27px;
+    }
+
+    .types .rows h2{
+        font-size: 18px;
+        line-height: 19px;
+        width: 23%;
+    }
+
+    .heads{
+        position: absolute;
+        left: 20px;
+        top: 1130px;
+    }
+
+    .heads h1{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .account h1{
+        position: absolute;
+        width: 100%;
+        height: 27px;
+        left: 20px;
+        top: 1220px;
+        font-size: 26px;
+        line-height: 27px;
+        /* text-align: center; */
+    }
+
+    .form{
+        position: absolute;
+        /* left: 20px; */
+        top: 1300px;
+    }
+
+    .form form{
+        width: 92%;
+        margin: auto;
+    }
+
+    .form form input{
+        height: 38px;
+    }
+
+    .form form label{
+        width: 99%;
+    }
+
+    .delivered h1{
+        position: absolute;
+        width: 100%;
+        height: 27px;
+        left: 20px;
+        top: 1920px;
+        font-size: 26px;
+        line-height: 27px;
+    }
+
+
+    .address{
+        top: 2000px;
+    }
+
+    .paym h1{
+        position: absolute;
+        width: 100%;
+        height: 27px;
+        left: 20px;
+        top: 2620px;
+        font-size: 26px;
+        line-height: 27px;
+    }
+
+    .payment{
+        top: 2700px;
+    }
+
+    .total{
+        width: 85%;
+        height: 120px;
+        position: absolute;
+        left: 20px;
+        top: 3530px;
+    }    
+
+    .total .head h1{
+        font-size: 25px;
+    }
+
+    .footer .top {
+        top: 3900px;
+    }
+
+    .footer .bottom {
+        top: 4260px;
+    }
+}
+
+@media screen and (max-width: 313px) {
+    .blok-1 h1{
+        width: 96%;
+        font-size: 40px;
+        line-height: 45px;
+        height: 55px;
+        border: inherit;
+    }
+
+    .blok-images .bottom-img{
+        width: 150px;
+        height: 155px;
+        right: 35px;
+        top: 300px;
+    }
+
+    .heads{
+        position: absolute;
+        left: 20px;
+        top: 1180px;
+    }
+}
+

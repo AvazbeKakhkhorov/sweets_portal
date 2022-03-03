@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:ital,wght@0,300;1,500&family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&family=Nunito:ital,wght@0,300;1,500&family=Poppins&family=Wendy+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/regstr.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="regs">
+        <p>Regstered completed successfully. We'll keep you up to date</p>
+        <svg onclick="delet()" id="svg-x" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 1L1 18M1 1L17.5 18" stroke="#FBFAC9" stroke-width="1.5"/>
+        </svg>
+    </div>
+    
+    <nav class="navbar">
+        <div class="burger">
+            <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="30" height="4" rx="2" fill="#642C99"/>
+                <rect y="7" width="23" height="4" rx="2" fill="#642C99"/>
+                <rect y="14" width="15" height="4" rx="2" fill="#642C99"/>
+            </svg>
+        </div> 
+        <ul>
+            <li><a href="#" class="current">Shop</a></li>
+            <li><a href="story.html">Our story</a></li>
+            <li><a href="why-miss.html">Why Miss cupcake </a></li>
+        </ul>
+        <div onclick="shopping()" class="bag">
+            <div class="halqa">
+                <span class="son-8">0</span>
+            </div>
+            <svg width="39" height="41" viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 7H38C37.9495 8.51378 37.7555 10.4859 37.354 12.5M9 22C13.8333 22 24.9 22 30.5 22C34.4046 22 36.4294 17.1385 37.354 12.5M37.354 12.5H9" stroke="#642C99" stroke-width="1.5"/>
+                <path d="M33.5 28H14.5C12.6667 28 9 26.4 9 20C9 12 9 1 0 1" stroke="#642C99" stroke-width="1.5"/>
+                <circle cx="13" cy="36" r="3.75" stroke="#642C99" stroke-width="1.5"/>
+                <circle cx="30" cy="36" r="3.75" stroke="#642C99" stroke-width="1.5"/>
+            </svg>
+        </div>
+    </nav>
+<!-- ------------------------------------------------------------------------------------------------- -->
+    <div class="left">
+        
+        <h1>Miss cupcake</h1>
+        <p>We are proud to offer cupcakes and cakes that are freshly baked within hours, if not minutes, for your enjoyment.</p>
+        <button><a style="color: #FBFAC9" href="check-out.html">SHOP NOW</a></button></button>
+        
+    </div>
+    <div class="right">
+        <img src="./images/3perok.png" alt="">
+    </div>
+ <!-- ______________________________________________________________________________________________________________________________ -->
+    <div id="header-2">
+        <div class="header2">
+            <div class="bir">
+                <img class="img1" src="./images/cream.png" alt="">
+                <img class="img2" src="./images/keks.png" alt="">
+            </div>
+            <div class="ikki">
+                <h1>The Simple, Sweet Life</h1>
+                <p>Our cupcakes are always made with the finest ingredients, creating a spark that makes your taste buds dance. You’ll want to indulge in each and every decadent flavor.</p>
+                <button ><a style="color: #FBFAC9" href="why-miss.html">WHY MISS CUPCAKE</a></button>
+            </div>
+        </div>
+    </div>
+<!--__________________________________________________________________________________________________________________________ -->
+    
+    <div id="header-3" class="header-3">
+        <div class="head">
+            <h1>Make your day a little sweeter</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/keks2.png" alt="">
+                <div class="posts">
+                    <h2>Carrot</h2>
+                    <p>Walnut-studded carrot cake with cinnamon cream cheese frosting</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="./images/keks3.png" alt="">
+                <div class="posts">
+                    <h2>Red Velvet</h2>
+                    <p>A chocolate sponge, coloured naturally with beetroot and topped off with cream cheese.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="./images/keks4.png" alt="">
+                <div class="posts">
+                    <h2>Mint Chip</h2>
+                    <p>Homemade chocolate cupcakes topped with thick & creamy mint chocolate chip frosting.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks10.png" alt="">
+                <div class="posts">
+                    <h2>Pink strawberry</h2>
+                    <p>A fluffy strawberry cupcake with strawberry buttercream frosting and chocolate syrup.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks6.png" alt="">
+                <div class="posts">
+                    <h2>Marshmallow</h2>
+                    <p>A super chocolatey cupcake base with a soft marshmallowy buttercream topping.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks7.png" alt="">
+                <div class="posts">
+                    <h2>Dark Chocolate</h2>
+                    <p>Belgian chocolate cake with sweet chocolate frosting and cheery. </p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-3">
+                <img src="./images/keks8.png" alt="">
+                <div class="posts">
+                    <h2>Salty Caramel</h2>
+                    <p>Caramel cake with a buttery caramel cream cheese frosting topped with fleur de sel.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks9.png" alt="">
+                <div class="posts">
+                    <h2>Gluten Free Velvet</h2>
+                    <p>A gluten free twist on our classic red velvet, topped off with cream cheese.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks10.png" alt="">
+                <div class="posts">
+                    <h2>Cinnamon</h2>
+                    <p>Lightly spiced buttermilk cake with cinnamon cream cheese frosting with cinnamon sugar.</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-3">
+                <img src="./images/keks2.png" alt="">
+                <div class="posts">
+                    <h2>Totally nuts</h2>
+                    <p>A sweet hazelnut paste with nutella butter cream and chopped hazelnuts on the top. </p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks4.png" alt="">
+                <div class="posts">
+                    <h2>Pink Vanilla</h2>
+                    <p>Soft, fluffy, and extra moist creamy vanilla buttercream with extra sprinkles </p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="count">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <img src="./images/keks3.png" alt="">
+                <div class="posts">
+                    <h2>Chococream</h2>
+                    <p>Walnut-studded carrot cake with cinnamon cream cheese frosting</p>
+                    <div class="buttons">
+                        <div class="add">
+                            <span class="kam">-</span>
+                            <span id="counts">0</span>
+                            <span class="kop">+</span>
+                        </div>
+                        <button class="btn-lato">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- ___________________________________________________________________________________________________________________ -->
+    
+    <div class="header-4">
+        <div class="left-2">
+            <h1>once upon a time...</h1>
+            <p>The art of baking runs deep in our family. Growing up on our family we learned from the best. Our mom was an amazing baker. She not only taught us how to bake, she passed along her values of quality, honesty and integrity.</p>
+            <button><a style="color: #FBFAC9" href="story.html">OUR STORY</a></button></button>
+        </div>
+        <div class="right-2">
+            <img src="./images/keksfooter.png" alt="">
+        </div>
+    </div>
+    
+<!-- ___________________________________________________________________________________________________-->
+
+    <div id="footer" class="footer">
+        <div class="top">
+            <div class="one">
+                <h1>Miss cupcake</h1>
+            </div>
+            <div class="two">
+                <ul>
+                    <li><a href="#" class="current">Shop</a></li>
+                    <li><a href="story.html">Our story</a></li>
+                    <li><a href="why-miss.html">Why Miss cupcake </a></li>
+                </ul>
+            </div>
+            <div class="three">
+                <p>Suger up your Inbox</p>
+                <form action="">
+                    <input id="Email" required type="email" placeholder="Email address" />
+                    <input type="submit" value="SEND" />
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a href="#">© MISS CUPCAKES 2022</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+            </ul>
+        </div>
+    </div>
+<!--___________________________________________________  -->
+    <!-------------- card ------------------->
+    <div id="card">
+        <div class="top">
+            <h1>My Bag</h1>
+            <svg onclick="delet()" id="svg-x" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.5 1L1 18M1 1L17.5 18" stroke="#642C99" stroke-width="1.5"/>
+            </svg>
+        </div>
+        <div class="main">
+            <!-- <div class="steps">
+                <div class="cols">
+                    <img src="./images/cupcake 1.png" alt="">
+                    <p>Carrot  x  1</p>
+                </div>
+                <span>$3.49</span>
+            </div> -->
+        </div>
+        <div class="bottom">
+            <div class="head">
+                <p>Total to pay</p>
+                <span>$0</span>
+            </div>
+            <div class="buttons">
+                <a href="payment.html" class="check-btn">CHECK OUT</a>
+                <a href="check-out.html">VIEW CART</a>
+            </div>
+        </div>
+    </div>
+<!-- ____________________________________________________________ -->
+
+    <script>
+        let shop=document.querySelector(".bag");
+        let card=document.getElementById("card")
+        let x=document.getElementById("svg-x")
+
+        function shopping() {
+            card.style.display='block'
+            card.style.transition="1s ease"
+        }
+
+        function delet() {
+            card.style.display='none'
+        }
+
+    </script>
+
+
+
+
+
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/app.js"></script>
+        
+    </body>
+</html>

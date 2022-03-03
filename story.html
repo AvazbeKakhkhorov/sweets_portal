@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/story.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:ital,wght@0,300;1,500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&family=Nunito:ital,wght@0,300;1,500&family=Poppins&family=Wendy+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/regstr.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="regs">
+        <p>Regstered completed successfully. We'll keep you up to date</p>
+        <svg onclick="delet()" id="svg-x" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 1L1 18M1 1L17.5 18" stroke="#FBFAC9" stroke-width="1.5"/>
+        </svg>
+    </div>
+
+    <nav class="navbar">
+        <div class="burger">
+            <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="30" height="4" rx="2" fill="#642C99"/>
+                <rect y="7" width="23" height="4" rx="2" fill="#642C99"/>
+                <rect y="14" width="15" height="4" rx="2" fill="#642C99"/>
+            </svg>
+        </div>
+        <ul>
+            <li><a href="index.html" >Shop</a></li>
+            <li><a href="#" class="current">Our story</a></li>
+            <li><a href="why-miss.html">Why Miss cupcake </a></li>
+        </ul>
+        <div onclick="shopping()" class="bag">
+            <span class="son-8">0</span>
+            <svg width="39" height="41" viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 7H38C37.9495 8.51378 37.7555 10.4859 37.354 12.5M9 22C13.8333 22 24.9 22 30.5 22C34.4046 22 36.4294 17.1385 37.354 12.5M37.354 12.5H9" stroke="#642C99" stroke-width="1.5"/>
+                <path d="M33.5 28H14.5C12.6667 28 9 26.4 9 20C9 12 9 1 0 1" stroke="#642C99" stroke-width="1.5"/>
+                <circle cx="13" cy="36" r="3.75" stroke="#642C99" stroke-width="1.5"/>
+                <circle cx="30" cy="36" r="3.75" stroke="#642C99" stroke-width="1.5"/>
+            </svg>
+        </div>
+    </nav>
+   <!-------------------------------------------------------------------------- -->
+    <div class="left-2">
+        <div class="post">
+            <h1>once upon a time..</h1>
+            <p>The art of baking runs deep in our family. Growing up on our family we learned from the best. Our mom was an amazing baker. She not only taught us how to bake, she passed along her values of quality, honesty and integrity.</p>
+        </div>
+    </div>
+    <div class="right-2">
+        <img src="./images/keksfooter.png" alt="">
+    </div>
+    
+<!-- ________________________________________________________________________ -->
+    <div class="header-uch">
+        <h1>Celebrating the little things</h1>
+        <p>We believe in celebrating the little things, working hard, supporting one another and baking the best cupcakes we can. We work on creating a caring community through baking. <br>
+        <br> 
+        We are committed to building a work environment where we can all learn, grow and be our best selves.</p>
+    </div>  
+<!-- _________________________________________________________________________________________ -->
+    <div id="header-2" class="header-2">
+        <div class="text">
+            <h1>The Simple, Sweet Life</h1>
+            <p>We are proud to offer cupcakes and cakes that are freshly baked within hours, if not minutes, for your enjoyment.</p>
+            <button><a style="color: #FBFAC9" href="why-miss.html">WHY MISS CUPCAKE</a></button></button>
+        </div>
+        <div class="images">
+            <img class="img1" src="./images/Our/mini.png" alt="">
+            <img class="img2" src="./images/Our/mega.png" alt="">
+        </div>
+    </div>  
+<!--    ________________________________________________________________________________________ -->
+    <div class="footer">
+        <div class="top">
+            <div class="one">
+                <h1>Miss cupcake</h1>
+            </div>
+            <div class="two">
+                <ul>
+                    <li><a href="index.html" >Shop</a></li>
+                    <li><a href="#" class="current">Our story</a></li>
+                    <li><a href="why-miss.html">Why Miss cupcake </a></li>
+                </ul>
+            </div>
+            <div class="three">
+                <p>Suger up your Inbox</p>
+                <form action="">
+                    <input id="Email" type="email" placeholder="Email address" />
+                    <input type="submit" value="SEND" />
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a href="#">© MISS CUPCAKES 2022</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+            </ul>
+        </div>
+    </div> 
+    <div class="past"></div>
+
+<!------------------- card ------------------------------->
+    <div id="card">
+        <div class="top">
+            <h1>My Bag</h1>
+            <svg onclick="delet()" id="svg-x" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.5 1L1 18M1 1L17.5 18" stroke="#642C99" stroke-width="1.5"/>
+            </svg>
+        </div>
+        <div class="main">
+            <div class="steps">
+                <div class="cols">
+                    <img src="./images/cupcake 1.png" alt="">
+                    <p>Carrot  x  1</p>
+                </div>
+                <span>$3.49</span>
+            </div>
+            <div class="steps">
+                <div class="cols">
+                    <img src="./images/cupcake 2.png" alt="">
+                    <p>Red Valvet  x  3</p>
+                </div>
+                <span>$10.47</span>
+            </div>
+            <div class="steps">
+                <div class="cols">
+                    <img src="./images/cupcake 3.png" alt="">
+                    <p>Mint Chip  x  2</p>
+                </div>
+                <span>$6.98</span>
+            </div>
+            <div class="steps">
+                <div class="cols">
+                    <img src="./images/image 3.png" alt="">
+                    <p>Pink Strawberry  x  2</p>
+                </div>
+                <span>$6.98</span>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="head">
+                <p>Total to pay</p>
+                <span>$27.92</span>
+            </div>
+            <div class="buttons">
+                <a href="payment.html" class="check-btn">CHECK OUT</a>
+                <a href="check-out.html">VIEW CART</a>
+            </div>
+        </div>
+    </div>
+<!-- ____________________________________________________________ -->
+
+    <script>
+        let shop=document.querySelector(".bag");
+        let card=document.getElementById("card")
+        let x=document.getElementById("svg-x")
+
+        function shopping() {
+            card.style.display='block'
+            card.style.transition="1s ease"
+        }
+
+        function delet() {
+            card.style.display='none'
+        }
+    </script>
+
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js"></script>
+
+</body>
+</html>

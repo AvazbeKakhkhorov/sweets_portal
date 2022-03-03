@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: #642C99;
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#card{
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 35%;
+    height: 729px;
+    background-image: url(../images/Our/korzinkamodal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#card .top{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid #642C99;
+    padding-bottom: 20px;
+}
+
+#card .top h1{
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    color: #642C99;
+    width: 119px;
+    height: 34px;
+}
+
+#card svg{
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#card .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#card .row:nth-child(4){
+    border-bottom: 2px solid #642C99;
+    padding-bottom: 35px;
+}
+
+#card .row .col-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #642C99;
+    font-family: 'Lato';
+}
+
+#card .row span{
+    color: #642C99;
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#card .row .col3 img{
+    width: 40px;
+    height: 44px;
+}
+
+#card .row .col-3 p{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#card .bottom{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#card .bottom .head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#card .bottom .head p{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 20px;
+    color: #642C99;
+}
+
+
+#card .bottom .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 100%;
+    height: 60px;
+    background-color: #642C99;
+    border: none;
+    border-radius: 8px;
+    color: #ffe0f5;
+    cursor: pointer;
+}
+
+.buttons button{
+    width: 100%;
+    height: 50px;
+    background-color: #642C99;
+    border: none;
+    border-radius: 8px;
+    color: #ffe0f5;
+}
+
+.buttons a{
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    color: #642C99;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Lato';
+    margin-top: 30px;
+    font-weight: 700;
+}

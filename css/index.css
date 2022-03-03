@@ -1,0 +1,978 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+   background: linear-gradient(transparent, #ff9ce1);
+   border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+   background: linear-gradient(transparent, #ff81d9);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+li{
+    list-style-type: none;
+}
+
+h1{
+    width: 100%;
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: normal;
+    color: #642C99;
+    font-size: 100px;
+    /* line-height: 127px; */
+}
+
+p{
+    width: 90%;
+    height: 44px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    color: #642C99;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background: #642C99;
+    border-radius: 8px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FBFAC9;
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(../images/homedesktop/home.svg);
+}
+
+.navbar{
+    width: 93%;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+.navbar .burger{
+    display: none;
+}
+
+.navbar ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    height: 25px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #642C99;
+}
+
+.navbar ul li a:hover, .navbar ul li a.current{
+    font-weight: 900;
+}
+
+.navbar .bag{
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .bag .halqa{
+    position: absolute;
+    /* width: 30px; */
+    /* height: 26px; */
+    padding: 5px 8px;
+    top: -8px;
+    left: 20px;
+    border-radius: 50%;
+    background: #FCEFD2;
+    
+}
+
+.navbar .bag .son-8{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #642C99;
+}
+
+.left{
+    position: absolute;
+    width: 45%;
+    left: 110px;
+    top: 184px;
+    font-size: 120px;
+    line-height: 127px;
+    
+}
+
+.right img{
+    position: absolute;
+    width: 532px;
+    height: 711px;
+    right: 100px;
+    top: 121px;
+}
+
+/* ----------------------------------------- */
+
+#header-2{
+    position: absolute;
+    width: 100%;
+    top: 971px;
+    
+    /* border: 1px solid red; */
+}
+
+.header2{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: inherit;
+}
+
+.header2 .bir{
+    width: 35%;
+    
+}
+
+.bir .img1{
+    width: 98%;
+    height: 240px;
+    border: inherit
+}
+
+.bir .img2{
+    width: 90%;
+    margin-left: 10px;
+    height: 253px;
+    margin-top: 25px;
+    border: inherit;
+}
+
+.header2 .ikki{
+    width: 45%;
+    height: 377px;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ikki h1{
+    font-size: 85px;
+    width: 100%;
+}
+/* --------------------------------------------- */
+.header-3{
+    position: absolute;
+    width: 100%;
+    top: 1955px;
+    /* border: 1px solid red; */
+}
+
+.header-3 .head{
+    margin-bottom: 200px;
+}
+
+.header-3 .head h1{
+    position: absolute;
+    width: 50%;
+    left: 110px;
+    top: 0;
+    font-size: 90px;
+    line-height: 95px;
+    
+
+}
+
+.header-3 .row{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:  inherit;
+}
+
+.header-3 .row .col-3{
+    width: 27%;
+    text-align: center;
+    margin-top: 200px;
+    border: inherit;
+}
+
+.header-3 .row .col-3 img{
+    width: 200px;
+    height: 244px;
+}
+
+.header-3 .row .col-3 .posts{
+    border: inherit;
+    color: #642C99;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.col-3 .posts h2{
+    font-family: 'Wendy One';
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 25px;
+    border: inherit;
+}
+
+.col-3 .posts p{
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #642C99;
+
+}
+
+.col-3 .posts .buttons{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: inherit;
+}
+
+.col-3 .posts .add{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid#642C99;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+
+.col-3 .posts .add span{
+    cursor: pointer;
+    font-weight: 500;
+    width: 15px;
+}
+
+.col-3 .posts .buttons button{
+    cursor: pointer;
+    width: 60%;
+    height: 100%;
+    background: #642C99;
+    color: #FBFAC9;
+    border-radius: 5px;
+    border: none;
+    /* margin-top:0; */
+} 
+/* ------------------------------------------------------ */
+
+.left-2{
+    width: 48%;
+    position: absolute;
+    left: 100px;
+    top: 5226px;
+    color: #642C99;
+    /* border: 1px solid red; */
+}
+
+.left-2 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 127px;
+}
+
+.left-2 p{
+    height: 116px;
+    margin-top: 10px;
+}
+
+.left-2 button{
+    margin-top: 10px;
+}
+
+.right-2 img{
+    position: absolute;
+    width: 34%;
+    height: 679px;
+    right: 100px;
+    top: 5309px;
+
+}
+/* -------------------------------------*/
+
+.footer{
+    position: absolute;
+    width: 100%;
+    top: 6166px;
+}
+
+.footer .top{
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FDEFD1;
+    /* border: 1px solid red; */
+}
+
+.footer .top .one h1{
+    width: 70%;
+    height: 66px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 34px;
+    color: #FDEFD1;
+}
+
+.footer .top .two ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .top ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FDEFD1;
+}
+
+.footer .top .three {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer .top .three p{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #FBFAC9;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.three form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three form input[type='email']{
+    width: 75%;
+    height: 40px;
+    background-color: #642C99;
+    color: #FBFAC9;
+    border: 2px solid #FBFAC9;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.three form input::placeholder{
+    color: #FBFAC9;
+    width: 200px;
+}
+
+.three form input[type='submit']{
+    width: 20%;
+    height: 40px;
+    background-color: #FBFAC9;
+    color: #642C99;
+    border: 2px solid #FBFAC9;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.footer .bottom{
+    margin: 95px 0;
+}
+
+.footer .bottom ul{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer .bottom ul li a{
+    font-size: 18px;
+    color: #FDEFD1;
+}
+
+@media screen and (max-width:1130px) and (min-width:1024px) {
+    
+    .left h1 {
+        font-size: 80px;
+        
+    }
+
+    .left p{
+        width: 80%;
+    }
+    
+    .right img {
+        width: 432px;
+    }
+
+    .ikki h1{
+        font-size: 70px;
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .header-3 .head h1{
+        font-size: 70px;
+
+    }
+
+    .left-2 h1{
+        font-size: 90px;
+    }
+
+    .header-3 .row .col-3{
+        margin-top: 190px;
+    }
+
+    .col-3 .posts .buttons{
+        margin-top: 50px;
+    }
+}
+
+
+
+/* -------Tablet device------------ */
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    body{
+        position: relative;
+        background-image: url(../images/tablet\ uchun\ images/bgtablet.svg);
+    }
+
+
+    .navbar ul{
+        width: 37%;
+    }
+
+    .navbar ul li a{
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .left{
+        position: absolute;
+        top: 216px;
+        left: 40px;
+    }
+
+    .left h1{
+        width: 74%;
+        font-size: 85px;
+        line-height: 95px;
+    }
+
+    .right img{
+        display: none;
+    }
+
+    .right{
+        background-image: url(../images/tablet\ uchun\ images/top.png);
+        position: absolute;
+        width: 355px;
+        height: 716px;
+        right: 90px;
+        top: 120px;
+    }
+/* -------------------------------------------------- */
+
+    .bir .img1{
+        height: 195px;
+    }
+
+    .bir .img2{
+        height: 205px;
+        margin-top: 20px;
+    }
+
+    .header2 .ikki{
+        width: 55%;
+        height: 370px;
+    }
+
+    .ikki h1{
+        font-size: 66px;
+        /* border: 1px solid red; */
+    }
+
+    .ikki p{
+        width: 100%;
+        font-size: 17px;
+        margin-top: -50px;
+    }
+
+    /* ---------------------------------------- */
+
+    .header-3{
+        position: absolute;
+        width: 100%;
+        top: 1700px;
+        /* border: 1px solid red; */
+    }
+
+    .header-3 .head {
+        margin-bottom: 100px;
+    }
+
+    .header-3 .head h1{
+        width: 60%;
+        font-size: 66px;
+        line-height: 70px;
+        left: 42px;
+    }
+
+
+    .header-3 .row .col-3{
+        width: 44%;
+        margin-top: 130px;
+    }
+/* ___________________________________________ */
+
+    .left-2{
+        position: absolute;
+        /* width: 367px; */
+        left: 70px;
+        top: 5636px;
+        color: #642C99;
+    }
+
+    .left-2 h1{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 74px;
+    }
+
+    .left-2 p{
+        width: 450px;
+        height: 94px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .right-2 img{
+        position: absolute;
+        width: 340px;
+        height: 500px;
+        right: 100px;
+        top: 5873px;
+    }
+/* __________________________________________ */
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        top: 6479px;
+    }
+
+    .footer .top {
+        height: 100px;
+    }
+
+    .footer .top .one h1{
+        font-size: 30px;
+    }
+
+    .footer .top ul li a{
+        font-size: 17px;
+    }
+
+    .footer .top .three{
+        width: 42%;
+    }
+
+    .three form input[type='email']{
+        height: 30px;
+    }
+
+    .three form input[type='submit']{
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .footer .bottom ul{
+        width: 77%;
+    }
+
+    .footer .bottom ul li a{
+        font-size: 17px;
+    }
+}
+
+
+/* ------Mobile device------------------ */
+
+@media screen and (max-width: 767px) {
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    body{
+        position: relative;
+        background-image: url(../images/mobile\ uchun/bgmobile.svg);
+    }
+
+    h1{
+        font-size: 56px;
+        line-height: 65px;
+    }
+
+    p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .navbar .burger{
+        display: block;
+        cursor: pointer;
+        margin-left: 5px;
+        z-index: 2;
+    }
+
+    .navbar .burger rect.white{
+        fill: #FBFAC9;
+        transition: 0.7s;
+    }
+
+    .navbar ul{
+        position: absolute;
+        top: -300px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 270px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #642C99;
+        transition: 0.8s ease;
+        opacity: 0.9;
+    }
+
+    .navbar ul.show{
+        top: -30px;
+    }
+
+    .navbar ul li a{
+        color: #FBFAC9;
+        font-size: 22px;
+    
+    }
+/* ____________________________________________ */
+
+    .left{
+        position: absolute;
+        left: 20px;
+        top: 128px;
+        width: 85%;
+    }
+
+    .left p{
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .right img{
+        position: absolute;
+        width: 60%; 
+        height: 356px;
+        top: 489px;
+        left: 25%;
+    }
+/* _________________________________________ */
+
+    #header-2{
+        position: absolute;
+        top: 920px;
+        /* left: 25px; */
+    }
+
+    .header2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .header2 .ikki{
+        width: 96%;
+        margin-left: 20px;
+        /* align-items: center; */
+    }
+
+    .header2 .ikki h1{
+        /* width: 300px; */
+        width: 100%;
+        /* height: 127px; */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 65px;
+        /* border: 1px solid red; */
+
+    }
+
+    .ikki p{
+        /* width: 336px; */
+        width: 100%;
+        height: 147px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+        color: #642C99;
+        margin-top: -5px;
+        /* border: 1px solid red; */
+    }
+
+    .header2 .bir{
+        /* width: 301px; */
+        width: 75%;
+        margin: auto;
+        width: 100%;
+        height: 372px;
+        margin-top: 30px;
+    }
+
+    .bir .img1{
+        width: 100%;
+        margin: auto;
+    }
+
+    .bir .img2{
+        width: 100%;
+        margin: auto;
+    }
+/* ________________________________ */
+
+    .header-3{
+        position: absolute;
+        height: 177px;
+        left: 20px;
+        top: 1900px;
+        /* border: 1px solid red; */
+    }
+
+    .header-3 .head{
+        width: 100%;
+    
+    }
+
+    .header-3 .head h1{
+        position: absolute;
+        left: 20px;
+        width: 90%;
+        font-size: 52px;
+        line-height: 65px;
+        /* border: 1px solid red; */
+    }
+
+    .header-3 .row{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .header-3 .row .col-3:nth-child(12){
+        display: none;
+    }
+
+        
+    .header-3 .row .col-3{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .header-3 .row .col-3 img{
+        width: 180px;
+        height: 210px;
+    }
+/* __________________________________________ */
+
+    .left-2{
+        width: 95%;
+        position: absolute;
+        width: 280px;
+        left: 20px;
+        top: 8000px;
+        
+    }
+
+    .left-2 h1{
+        width: 95%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 65px;
+        height: 170px;
+    }
+
+    .left-2 p{
+        width: 97%;
+        height: 157px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .right-2 img{
+        position: absolute;
+        width: 248px;
+        height: 340px;
+        left: 75px;
+        top: 8490px;
+    }
+
+/* ------------------------------------------ */
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 740px;
+        /* left: 23px; */
+        top: 8884px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+
+    .footer .top{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: inherit;
+    }
+
+    .footer .top .one h1{
+        width: 131px;
+        height: 66px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 34px;
+        color: #FDEFD1;
+    }
+
+    .footer .top .two ul{
+        height: 130px;
+    }
+
+    .footer .top .three{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: inherit;
+    }
+
+    .three form{
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .three form input[type='email'], .three form input[type='submit']{
+        width: 100%;
+    }
+
+    .footer .bottom{
+        width: 90%;
+        margin: auto;
+        height: 340px;
+        margin-top: 30px;
+        border: inherit;
+    }
+
+    .footer .bottom ul{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+}

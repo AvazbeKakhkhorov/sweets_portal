@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <!-- give a suitable heading using h1 tag-->
+        <h1>Increment and Decrement counter</h1>
+  
+        <div class="container">
+            <!-- adding button and heading to show the digits -->
+            <!-- increment() and decrement() functions on button click-->
+            <button onclick="increment()">+</button>
+            <h2 id="counting"></h2>
+            <button onclick="decrement()">-</button>
+        </div>
+        <!-- JavaScript code-->
+        <script>
+            //initialising a variable name data
+            var data = 0;
+  
+            //printing default value of data that is 0 in h2 tag
+            document.getElementById("counting").innerText = data;
+  
+            //creation of increment function
+            function increment() {
+                data = data + 1;
+                document.getElementById("counting").innerText = data;
+            }
+            //creation of decrement function
+            function decrement() {
+                data = data - 1;
+                document.getElementById("counting").innerText = data;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="regs">
+        <p>Regstered completed successfully. We'll keep you up to date</p>
+        <svg onclick="delet()" id="svg-x" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 1L1 18M1 1L17.5 18" stroke="#FBFAC9" stroke-width="1.5"/>
+        </svg>
+    </div> 
+
+    $(":submit").click(function(e) {
+      e.preventDefault();
+      regs.style.top='0px';
+      regs.style.transition='0.8s';
+
+    })
+
+    $(".regs span").click(function() {
+      regs.style.top='-60px';
+      regs.style.transition='0.8s';
+    })
+
+
+
+
+
+        </script>
+    </body>
+</body>
+</html>

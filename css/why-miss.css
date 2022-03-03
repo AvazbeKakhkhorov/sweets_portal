@@ -1,0 +1,1298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #ffca58);
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #ff933a);
+  }
+
+body{
+    background-image: url(../images/why-miss/bg\ -desktop.svg);
+    background-repeat: no-repeat;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Lato';
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato';
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .burger{
+    display: none;
+}
+
+
+.navbar{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: inherit;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.navbar ul {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #642C99;
+}
+
+.navbar ul li a:hover, .navbar ul li a.current{
+    font-weight: 900;
+}
+
+.navbar .bag{
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .bag span{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #ffe0f5;
+    font-size: 14px;
+    color: #642C99;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+/* ____________________________________________ */
+
+.box {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 435px;
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.box h1{
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 115px;
+    line-height: 125px;
+    text-align: center;
+
+    color: #642C99;
+}
+
+.box p{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #642C99;
+
+}
+
+.box button{
+    width: 30%;
+    height: 43px;
+    color: #FBFAC9;
+    background: #642C99;
+    border-radius: 8px;
+}
+/* _____________________________________________ */
+
+.box2 .left-img img{
+    position: absolute;
+    width: 246px;
+    height: 252px;
+    left: 102px;
+    top: 511px;
+    /* border: 1px solid red; */
+}
+
+.box2 .orqa{
+    position: absolute;
+    width: 12%;
+    height: 232px;
+    /* left: 1070px; */
+    right: 135px;
+    top: 540px;
+    /* border: 1px solid red; */
+}
+
+
+.box2 .right-img img{
+    position: absolute;
+    /* width: 13%; */
+    height: 182px;
+    /* left: 1076px; */
+    right: 120px;
+    top: 650px;
+}
+/* ____________________________________________ */
+
+.center img{
+    position: absolute;
+    height: 795px;
+    /* left: 330px;*/
+    top: 1300px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 .tepa img{
+    position: absolute;
+    width: 40%;
+    height: 261px;
+    /* left: 470px;*/
+    top: 932px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 .markaz img{
+    position: absolute;
+    width: 32%;
+    height: 282px;
+    /* left: 526px;*/
+    top: 1240px; 
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 .past img{
+    position: absolute;
+    width: 28%;
+    height: 163px;
+    /* left: 535px;*/
+    top: 1490px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* _______________________________________________ */
+
+.box4 .bir{
+    position: absolute;
+    left: 102px;
+    top: 1222px;
+
+}
+
+.bir img{
+    width: 120px;
+    height: 120px;
+}
+
+.bir p{
+/* position: absolute; */
+    width: 30%;
+    /* width: 332px; */
+    height: 105px;
+    /* left: 117px; */
+    /* top: 1371px; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #642C99;
+    margin-top: 29px;
+}
+
+.box4 .ikki {
+    position: absolute;
+    left: 393px;
+    /* top: 1580px; */
+    top: 1600px;
+}
+
+.ikki img{
+    width: 120px;
+    height: 120px;
+}
+
+.ikki p{
+    /* position: absolute; */
+    /* left: 393px;
+    top: 1728px; */
+    width: 40%;
+    /* height: 77px; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #642C99;
+    margin-top: 29px;
+}
+
+.box4 .uch{
+    position: absolute;
+    top: 1316px;
+    /* left: 1006px; */
+    right: 80px;
+    /* border: 1px solid red; */
+}
+.uch img{
+    height: 120px;
+    width: 120px;
+}
+
+.uch p{
+    width: 336px;
+    /* width: 40%; */
+    height: 77px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #642C99;
+    margin-top: 29px;
+
+}
+/* __________________________________ */
+
+.box5{
+    position: absolute;
+    /* width: 770px; */
+    width: 56%;
+    height: 290px;
+    /* left: 341px; */
+    top: 2170px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+}
+
+.box5 h1{
+    width: 100%;
+    height: 100%;
+    font-family: 'Wendy One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 127px;
+    text-align: center;
+    color: #642C99;
+    position: relative;
+}
+
+.box5 img.cow{
+    position: absolute;
+    width: 46px;
+    height: 60px;
+    right: 150px;
+    top: -20px;
+}
+.box5 .mini{
+    position: absolute;
+    width: 59px;
+    height: 55px;
+    left: 200px;
+    bottom: 30px;
+}
+/* __________________________________________________ */
+.box6{
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    left: 50%;
+    top: 2380px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+
+}
+
+.box6 p{
+    width: 90%;
+    margin: auto;
+    height: 77px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #642C99;
+}
+.box6 button{
+    width: 30%;
+    height: 43px;
+    color: #FBFAC9;
+    background: #642C99;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+/* ------------------------------------ */
+.footer{
+    position: absolute;
+    width: 85vw;
+    height: 53vh;
+    left: 102px;
+    top: 2923px;
+    /* border: 1px solid red; */
+}
+
+.footer .top{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: inherit;
+}
+
+
+.footer .top .one h1{
+    width: 25%;
+    height: 100%;
+    font-family: 'Wendy One';
+    
+
+    color: #FDEFD1;
+}
+
+.top .two ul{
+    height: 100%;
+}
+
+.top .two ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FDEFD1;
+}
+
+
+.footer .top .three {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer .top .three p{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #FBFAC9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.three form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three form input[type='email']{
+    width: 75%;
+    height: 40px;
+    background-color: #642C99;
+    color: #FBFAC9;
+    border: 2px solid #FBFAC9;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.three form input::placeholder{
+    color: #FBFAC9;
+    width: 200px;
+}
+
+.three form input[type='submit']{
+    width: 20%;
+    height: 40px;
+    background-color: #FBFAC9;
+    color: #642C99;
+    border: 2px solid #FBFAC9;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+.footer .bottom{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.footer .bottom ul{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 48px;
+    color: #FDEFD1;
+}
+
+
+@media screen and (max-width: 1247px) and (min-width: 1024px) {
+    
+    .box h1{
+        font-family: 'Wendy One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+    
+        color: #642C99;
+    }
+    
+    .box p{
+        width: 70%;
+        margin: auto;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #642C99;
+    
+    }
+    
+    .box2 .left-img img{
+        width: 200px;
+        height: 215px;
+        
+    }
+    
+    .box2 .right-img img{
+        width: 175;
+        height: 170px;
+        
+    }
+
+    .center img{
+        width: 700px;
+        height: 735px;
+    }
+
+    .box3 .tepa img{
+        position: absolute;
+        width: 40%;
+        height: 250px;
+        /* left: 470px;*/
+        top: 952px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .box3 .markaz img{
+        position: absolute;
+        width: 32%;
+        height: 260px;
+        /* left: 526px;*/
+        top: 1250px; 
+        left: 51%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .box3 .past img{
+        position: absolute;
+        width: 28%;
+        height: 163px;
+        /* left: 535px;*/
+        top: 1490px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .bir img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .bir p{
+        width: 20%;
+    }
+
+    .box4 .ikki {
+        position: absolute;
+        left: 360px;
+        /* top: 1580px; */
+        top: 1635px;
+    }
+    .ikki img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .ikki p{
+        width: 38%;
+    }
+    .uch img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .uch p{
+        width: 230px;
+    }
+
+    .box5{
+        position: absolute;
+        width: 56%;
+        height: 250px;
+        top: 2170px;
+    }
+    .box5 h1{
+        font-size: 95px;
+        line-height: 100px;
+    }
+
+    .box6{
+        top: 2350px;
+    }
+
+    .box6 button{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1700px) {
+    .center img{
+        /* width: 700px; */
+        height: 1000px;
+    }
+
+    .box3 .tepa img{
+        position: absolute;
+        width: 40%;
+        height: 350px;
+        /* left: 470px;*/
+        top: 932px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .box3 .markaz img{
+        position: absolute;
+        width: 32%;
+        height: 320px;
+        /* left: 526px;*/
+        top: 1300px; 
+        left: 51%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .box3 .past img{
+        position: absolute;
+        width: 28%;
+        height: 200px;
+        /* left: 535px;*/
+        top: 1600px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box4 .ikki {
+        position: absolute;
+        left: 480px;
+        /* top: 1580px; */
+        top: 1660px;
+    }
+}
+
+
+/* -------Tablet device------------ */
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    body{
+        background-image: url(../images/tablet\ uchun\ images/why-miss-tabletbg.svg);
+        background-repeat: no-repeat;
+    }
+
+    .navbar ul{
+        width: 38%;
+    }
+ 
+    
+    .navbar ul li a{
+      font-size: 17px;
+      line-height: 20px;
+    }
+ /* _______________________________________ */
+
+    .box{
+        position: absolute;
+        width: 770px;
+        height: 370px;
+        top: 360px;
+        /* border: 1px solid red; */
+    }
+
+    .box h1{
+        font-family: 'Wendy One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 95px;
+        line-height: 100px;
+
+    }
+
+    .box p{
+        width: 476px;
+        height: 77px;
+        left: 251px;
+        top: 460px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+
+    }
+
+    .box button{
+        width: 206px;
+        height: 43px;
+        /* left: 377px;
+        top: 552px; */
+    }
+ /* ___________________________________ */
+
+    .box2 .left-img img{
+        position: absolute;
+        width: 130px;
+        height: 152px;
+        left: 40px;
+        top: 496px;
+    }
+
+    .box2 .orqa{
+        position: absolute;
+        width: 12%;
+        height: 232px;
+        right: 75px;
+        top: 430px;
+        /* border: 1px solid red; */
+    }
+
+    .box2 .right-img img{
+        position: absolute;
+        width: 125px;
+        height: 130px;
+        right: 60px;
+        top: 536px;
+    }
+ /*______________________________________________  */
+
+    .center img{
+        top: 1155px;
+        height: 680px;
+    }
+
+    .box3 .tepa img{
+        top: 825px;
+        height: 200px;
+        width: 47%;
+    }
+
+    .box3 .markaz img{
+        top: 1075px;
+        height: 250px;
+        width: 40%;
+    }
+
+    .box3 .past img{
+        width: 34%;
+        top: 1300px;
+        height: 150px;
+    }
+ /* ___________________________________________ */
+
+    .box4 img{
+        width: 105px;
+        height: 105px;
+    }
+
+    .box4 .bir{
+        left: 40px;
+        top: 1185px;
+    }
+
+    .box4 .bir p{
+        font-size: 17px;
+    }
+
+    .box4 .ikki{
+        left: 616px;
+        top: 1313px;
+    }
+
+    .box4 .ikki p{
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .box4 .uch{
+        left: 267px;
+        top: 1450px;
+
+    }
+
+    .uch p{
+        font-size: 16px;
+        width: 300px;
+    }
+ /* ____________________________________________ */
+
+    .box5{
+        position: absolute;
+        top: 1895px;
+        width: 65%;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+
+    .box5 h1{
+        font-size: 90px;
+        line-height: 94px;
+        
+    }
+
+    .box5 img.cow{
+        top: -30px;
+        right: 120px;
+    }
+
+    .box5 .mini{
+        bottom: -10px;
+        left: 160px;
+    }
+
+    .box6{
+        position: absolute;
+        width: 70%;
+        top: 2100px;
+    }
+
+    .box6 p{
+        line-height: 25px;
+        font-size: 17px;
+    }
+ /* ________________________________________ */
+
+    .footer{
+        position: absolute;
+        width: 90vw;
+        height: 57vh;
+        left: 40px;
+        top: 2600px;
+    }
+
+    .footer .top {
+        height: 100px;
+    }
+
+    .footer .top .one h1{
+        font-size: 30px;
+    }
+
+    .footer .top ul li a{
+        font-size: 17px;
+    }
+
+    .footer .top .three{
+        width: 42%;
+    }
+
+    .three form input[type='email']{
+        height: 30px;
+    }
+
+    .three form input[type='submit']{
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .footer .bottom ul{
+        width: 77%;
+    }
+
+    .footer .bottom ul li a{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:811px) and (min-width: 768px) {
+    
+    .box4 .ikki{
+        left: 520px;
+        top: 1313px;
+        
+    }
+
+    .box4 .ikki p{
+        width: 90%;
+        font-size: 17px;
+        
+    }
+
+    .box5 h1{
+        font-size: 80px;
+        line-height: 94px;
+        
+    }
+
+    .box6{
+        width: 80%;
+    }
+}
+
+/* -----MOBILE DEVICE----------- */
+
+@media screen and (max-width: 767px) {
+
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+
+    body{
+        background-image: url(../images/mobile\ uchun/bgwhy-miss.svg);
+        background-repeat: no-repeat;
+    }
+
+    .navbar .burger{
+        display: block;
+        cursor: pointer;
+        margin-left: 5px;
+        z-index: 2;
+    }
+
+    .navbar .burger rect.white{
+        fill: #FBFAC9;
+    }
+
+    .navbar ul{
+        position: absolute;
+        top: -300px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 270px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #642C99;
+        transition: 0.8s ease;
+        opacity: 0.9;
+    }
+
+    .navbar ul.show{
+        top: -30px;
+    }
+
+    .navbar ul li a{
+        color: #FBFAC9;
+        font-size: 22px;
+    }
+ /* ______________________________________ ______*/
+
+    .box{
+        position: absolute;
+        width: 90%;
+        height: 315px;
+        left: 50%;
+        top: 320px;
+        /* border: 1px solid red; */
+    }
+
+    .box h1{
+        width: 100%;
+
+        font-size: 60px;
+        line-height: 60px;
+        border: inherit;
+    }
+
+    .box p{
+        width: 100%;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        border: inherit;
+    }
+
+    .box button{
+        width: 58%;
+    }
+ /* _________________________________________ */
+
+    .box2 .left-img img{
+        top: 580px;
+        left: 30px;
+        width: 90px;
+        height: 100px;
+    }
+
+    .box2 .orqa{
+        width: 25%;
+        top: 530px;
+        right: 45px;
+    }
+
+    .box2 .right-img img{
+        top: 640px;
+        right: 40px;
+        width: 85px;
+        height: 90px;
+    }
+ /* _________________________________ */
+
+    .center img{
+        height: 355px;
+        top: 960px;
+    }
+
+    .box3 .tepa img{
+        top: 790px;
+        height: 120px;
+        width: 57%;
+    }
+
+    .box3 .markaz img{
+        top: 940px;
+        left: 52%;
+        width: 50%;
+        height: 150px;
+    }
+
+    .box3 .past img{
+        top: 1070px;
+        width: 46%;
+        height: 90px;
+    }
+ /* _________________________________ */
+
+    .bir img, .ikki img, .uch img{
+        width: 95px;
+        height: 95px;
+    }
+
+    .bir p, .ikki p, .uch p{
+        width: 95%;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+
+
+    .box4 .bir{
+        width: 94%;
+        text-align: center;
+        top: 1180px;
+        left: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .box4 .ikki{
+        width: 94%;
+        text-align: center;
+        top: 1445px;
+        left: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .box4 .uch{
+        width: 94%;
+        text-align: center;
+        top: 1700px;
+        left: 10px;
+        /* border: 1px solid red; */
+    }
+ /* ________________________________________________ */
+
+    .box5{
+        width: 80%;
+        height: 170px;
+        top: 2100px;
+        left: 44%;
+        text-align: start;
+        /* border: 1px solid red; */
+    }
+
+    .box5 h1{
+        font-size: 55px;
+        line-height: 56px;
+        text-align: start;
+    }
+
+    .box5 img.cow{
+        position: absolute;
+        width: 40px;
+        height: 50px;
+        right: 40px;
+        top: 45px;
+        
+    }
+
+    .box5 .mini{
+        position: absolute;
+        width: 40px;
+        height: 45px;
+        left: 90px;
+        bottom: -20px;
+    }
+ /* _____________________________________ */
+
+    .box6{
+        top: 2285px;
+        left: 50%;
+        width: 94%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+
+    .box6 p{
+        width: 100%;
+        font-size: 17px;
+        height: 60px;
+        line-height: 24px;
+        text-align: start;
+    }
+
+    .box6 button{
+        width: 55%;
+    }
+ /* __________________________________ */
+
+    .footer{
+        top: 2600px;
+        left: 20px;
+        width: 100%;
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+
+    .footer .top{
+        width: 90%;
+        height: 590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border: inherit;
+    }
+
+    .footer .top .one h1{
+        width: 131px;
+        height: 66px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 34px;
+        color: #FDEFD1;
+    }
+
+    .footer .top .two ul{
+        height: 130px;
+        width: 100%;
+    }
+
+    .footer .top .three{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: inherit;
+    }
+
+    .three form{
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .three form input[type='email'], .three form input[type='submit']{
+        width: 100%;
+    }
+
+    .footer .bottom{
+        margin: auto;
+        height: 340px;
+        
+        margin-top: 30px;
+        border: inherit;
+    }
+
+    .footer .bottom ul{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:366px) {
+    .box h1{
+        font-size: 45px;
+        line-height: 50px;
+
+    }
+    .box p{
+        font-size: 16px;
+        line-height: 20px;
+        
+    }
+
+    .box button{
+        height: 35px;
+        margin-top: 10px;
+    }
+ /* ________________________________ */
+
+    .box2 .left-img img{
+        top: 580px;
+        left: 30px;
+        width: 70px;
+        height: 75px;
+    }
+
+    .box2 .orqa{
+        width: 25%;
+        top: 530px;
+        right: 45px;
+    }
+
+    .box2 .right-img img{
+        top: 640px;
+        right: 40px;
+        width: 65px;
+        height: 70px;
+    }
+ /* _________________________________ */
+
+    .center img{
+        height: 320px;
+        top: 940px;
+    }
+
+    .box3 .tepa img{
+        top: 790px;
+        height: 100px;
+        width: 57%;
+    }
+
+    .box3 .markaz img{
+        top: 910px;
+        left: 52%;
+        width: 50%;
+        height: 110px;
+    }
+
+    .box3 .past img{
+        top: 1010px;
+        width: 46%;
+        height: 60px;
+    }
+
+    .bir p, .ikki p, .uch p{
+        width: 95%;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .box5{
+        height: 100px;
+    }
+
+    .box5 h1{
+        font-size: 45px;
+        line-height: 56px;
+        text-align: start;
+    }
+
+    .box6{
+        height: 200px;
+    }
+
+    .box6 p{
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .box6 button{
+        height: 35px;
+        margin-top: 10px;
+    }
+
+}
